@@ -1,0 +1,486 @@
+@import "../../../_assets/scss/Variables.scss";
+  .pat_name {
+    display: flex;
+    justify-content: center;
+  }
+.dashboardBlock {
+  background-color: white;
+  font-family: $font-familyRegular;
+  border-radius: 8px;
+  color: #707070;
+  .mainBlock {
+    max-width: 98%;
+  }
+  .dashboard-title {
+    font-size: 18px;
+
+    margin: 10px 0px;
+  }
+  .appointmntImg {
+    height:20px;
+  }
+  .nodisplay {
+    position: absolute;
+    font-size: 13px;
+    margin-left: 2pc;
+  }
+  .profile_image {
+    border-radius: 50rem;
+    border: 8px solid rgba(91, 99, 111, 0.4);
+    width: 115px;
+    height: 115px;
+  }
+  .addPatient {
+    width: 115px;
+    height: 115px;
+  }
+  .noDisplay {
+    margin-right: -2pc;
+    position: absolute;
+    font-size: 13px;
+  }
+
+  .appointment-block {
+    text-align: center;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    height: 250px;
+    box-shadow: 0px 2px 8px 0px #262c4d29;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 8px;
+  }
+  .NoListdisplay {
+    border: 1px solid rgba(38, 44, 77, 0.1607843137);
+    width: 40%;
+    border-style: dashed;
+    margin: 10px;
+    font-size: 12px;
+    color: #76767b;
+    padding: 16px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 2px;
+  }
+  .headerTitle {
+    color: #242425;
+    opacity: 1;
+    font-size: 14px;
+    font-family: $font-familyMedium;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+  }
+  .patientName {
+    font-family: $font-familyMedium;
+    color: #242425;
+  }
+  .app-title {
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: $font-familyMedium;
+    color: #242425;
+    margin: 0 13%;
+  }
+  .header-Title {
+    color: #242425;
+    font-size: 14px;
+    font-family: $font-familyMedium;
+  }
+
+  .visit-block {
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 8px 0px #262c4d29;
+    display: flex;
+    justify-content: center;
+    margin:2% 0%;
+    border-radius: 8px;
+  }
+  .hints {
+    font-size: 10px;
+    display: block;
+  }
+  .visitInfo {
+    border: 2px solid #262c4d29;
+    height: 50px;
+    width: 290px;
+    padding-top: 10px;
+    border-style: dashed;
+    background-color: #f6f9f9;
+  }
+  .editMore {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+  }
+  .Add {
+    margin-top: -2.5pc;
+    margin-left: 6pc;
+    font-family: $font-familyMedium;
+    color: #242425;
+  }
+
+  .card {
+    height: 20rem;
+    overflow-x: hidden;
+  }
+  .patient-name {
+    font-family: $font-familyMedium;
+    color: #242425;
+    font-size: 2.6vw;
+    width: 8rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0 20% !important;
+  }
+  .person-name {
+    font-family: $font-familyMedium;
+    color: grey;
+    font-size: 14px;
+  }
+  .visit-info {
+    border: 2px solid #e5eaee;
+    height: 50px;
+    width: 250px;
+    font-size: 12px;
+    padding-top: 10px;
+    margin: 0 0 0 20px;
+    border-style: dashed;
+    background-color: #f6f9f9;
+  }
+  .myappointment-body {
+    border-bottom: 1px solid #e0e4e8;
+  }
+  .JoinCall {
+    background-color: #6e78f7;
+    border-radius: 18px;
+    font-family: $font-familyMedium;
+    color: #ffffff;
+    font-size: 14px;
+    width: 95%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+  }
+  .JoinCall:hover {
+    cursor: pointer;
+  }
+  .JoinCallHeader {
+    justify-content: center;
+    align-items: center;
+  }
+  .HistoryHeaderList {
+    text-align: center;
+    font-family: $font-familyMedium;
+    color: #333333;
+    font-size: 12px;
+    box-shadow: 0px 2px 8px 0px #262c4d29;
+  }
+
+  .HistoryHeader {
+    color: #333333;
+    font-size: 14px;
+    font-family: $font-familySemiBold;
+    padding: 0;
+    margin-left: 20%;
+  }
+  .HistoryHeader_Status {
+    color: #333333;
+    font-size: 14px;
+    font-family: $font-familySemiBold;
+    padding: 0;
+    margin-left: 10%;
+  }
+
+  .SpinnerView {
+    display: flex;
+    flex-direction: column;
+
+    height: 15pc;
+    width: 100%;
+  }
+  .SpinnerElement {
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .SpinnerLoadingText {
+    font-family: $font-familyMedium;
+    color: #333333;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .HistoryHeader_ {
+    color: #333333;
+    font-size: 14px;
+    font-family: $font-familySemiBold;
+    padding: 0 0 0 0%;
+  }
+  .header-color {
+    background-color: #f2f5f8;
+    margin: auto 0;
+    border: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  .ListContent {
+    color: #707070;
+    font-family: $font-familyMedium;
+    font-size: 14px !important;
+  }
+  .ListContent_status {
+    color: #707070;
+    font-family: $font-familyMedium;
+    font-size: 14px !important;
+    text-wrap: nowrap !important;
+  }
+  .ListContent_ {
+    color: #707070;
+    word-break: break-all;
+    font-family: $font-familySemiBold;
+    font-size: 14px;
+    width: 6rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .ListDateContent {
+    color: #707070;
+    font-family: $font-familyRegular;
+    font-size: 12px;
+  }
+  .ListContents {
+    color: #666666;
+  }
+  .detail {
+    border-radius: 50rem;
+    background-color: #6e78f7;
+    height: 2pc;
+    color: #ffffff;
+  }
+
+  .dividerLine {
+    width: 100%;
+  }
+
+  .appointmentRow {
+    padding-left: 5%;
+    margin-top: 10px;
+    max-width: 100%;
+  }
+
+  .date_time {
+    padding: 0 0 0 16%;
+  }
+  .appointment-table-header {
+    background-color: #f4f6ff;
+    font-family: $font-familyMedium;
+    padding: 1% 1%;
+    margin: 0% 0%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .appointment-col-header {
+    padding: 0 5px;
+    color: #333333;
+  }
+  .text-align {
+    display: flex;
+    align-items: center !important;
+    padding: 1% 0% 1% 1%;
+  }
+  .status_header {
+    color: #333333;
+  }
+  .doc_name {
+    color: #333333;
+    margin-bottom: 0;
+    margin-left: -4px;
+  }
+  .status_name {
+    margin-bottom: 0;
+    margin-left: 8px;
+  }
+  .coming_soon_image {
+    border: 4px solid rgba(91, 99, 111, 0.4);
+    border-radius: 50rem;
+    width: 115px;
+    height: 115px;
+  }
+}
+.time-div-col {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 1rem;
+  column-gap: 10px;
+}
+@media only screen and (min-width: 1020px) {
+  .dashboardBlock{
+    flex: 1;
+    height: 80vh;
+    overflow-y: auto;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .dashboardBlock{
+    flex: 1;
+    height: 80vh;
+    overflow-y: auto;
+  }
+  .dashboardBlock .patient-name {
+    font-size: 16px;
+    width: 12rem;
+    white-space: nowrap;
+    padding: 0;
+  }
+  .dashboardBlock .coming_soon_image,
+  .dashboardBlock .profile_image {
+    border: 4px solid rgba(91, 99, 111, 0.4);
+    width: 115px !important;
+    height: 115px !important;
+  }
+  // .pat_name {
+  //   display: flex;
+  //   justify-content: end;
+  //   align-items: center;
+  //   padding: 0 !important;
+  // }
+  .pat_cmg_soon {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 !important;
+  }
+  .dashboardBlock .JoinCall {
+    font-size: 12px;
+    max-width: 130px;
+    width: 100% !important;
+  }
+}
+@media only screen and (width: 768px){
+  .dashboardBlock .card{
+    height: 25rem !important;
+  }
+}
+@media only screen and (width: 1024px){
+  .dashboardBlock .card{
+    height: 42rem !important;
+  }
+}
+@media (min-width:800px) and (max-width: 840px){
+  .dashboardBlock .card{
+    height: 33rem !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .dashboardBlock .JoinCall {
+    font-size: 12px;
+    max-width: 130px;
+    width: 120%;
+  }
+  // .pat_name {
+  //   display: flex;
+  //   justify-content: end;
+  //   align-items: center;
+  //   padding: 0 !important;
+  // }
+  .pat_cmg_soon {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 !important;
+  }
+  .dashboardBlock .patient-name {
+    font-size: 16px;
+    width: 12rem;
+    white-space: nowrap;
+    padding: 0;
+  }
+  .dashboardBlock .coming_soon_image,
+  .dashboardBlock .profile_image {
+    width: 115px !important;
+    height: 115px !important;
+  }
+}
+@media only screen and (min-width: 425px) {
+  .dashboardBlock .patient-name {
+    font-size: 16px;
+    width: 12rem;
+    white-space: nowrap;
+    padding: 0;
+  }
+  .dashboardBlock .profile_image {
+    border: 4px solid rgba(91, 99, 111, 0.4);
+  }
+  // .pat_name {
+  //   display: flex;
+  //   justify-content: end;
+  //   align-items: center;
+  //   padding: 0 !important;
+  // }
+  .pat_cmg_soon {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 !important;
+  }
+  .dashboardBlock .coming_soon_image,
+  .dashboardBlock .profile_image {
+    width: 115px !important;
+    height: 115px !important;
+  }
+  .dashboardBlock .JoinCall {
+    width: 260%;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .dashboardBlock .profile_image {
+    border: 4px solid rgba(91, 99, 111, 0.4);
+  }
+  .dashboardBlock .app-title {
+    font-size: 15px;
+  }
+  .dashboardBlock .patient-name {
+    font-size: 14px;
+  }
+  .dashboardBlock .JoinCall {
+    font-size: 12px;
+    width: 393%;
+  }
+  .dashboardBlock .coming_soon_image,
+  .dashboardBlock .profile_image {
+    width: 100px;
+    height: 100px;
+  }
+  .dashboardBlock .ListContent {
+    font-size: 12px !important;
+  }
+  .dashboardBlock .ListDateContent {
+    font-size: 10px;
+  }
+}
+@media (max-width:450px) {
+  .dashboardBlock .appointmntImg{
+    margin-top: -1rem;
+  }
+  .time-div-col{
+    column-gap: -5px;
+  }
+  .dashboardBlock .appointment-col-header{
+    font-size: 3.5vw;
+  }
+  .dashboardBlock .ListContent_{
+    font-size: 3.5vw;
+    width: 80%;
+  }
+  .dashboardBlock .ListContent_status{
+    font-size: 3.5vw !important;
+  }
+  .dashboardBlock .JoinCall{
+    width: 22vw;
+    font-size: 3.2vw;
+  }
+}
